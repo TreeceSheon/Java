@@ -1,0 +1,12 @@
+package pacman.game;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.Reader;
+
+public class GameReader {
+
+    public static void read(Reader reader) throws FileNotFoundException {
+        FileInputStream fis = new FileInputStream("C:\\Users\\Trrrr\\Desktop\\semester2\\CSSE7023\\assignment2\\src\\default .map");
+    }
+}

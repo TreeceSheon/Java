@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="285a8dc9-9bac-49f0-8be1-596f24d42e49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/pacman/game/GameReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/GameReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/game/PacmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/PacmanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Ghost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Inky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Inky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Pinky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Pinky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Hungry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Phasey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Phasey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Phil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Phil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Speedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Speedy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/score/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/score/ScoreBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/util/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/util/Position.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QuACm5ZGt2kc1FxHb14pOjWA82" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GameWriter">
+    <configuration name="Direction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.util.Direction" />
+      <module name="assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pacman.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.game.GameWriter" />
+      <module name="assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pacman.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacmanBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.board.PacmanBoard" />
+      <module name="assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pacman.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameWriter" />
+        <item itemvalue="Application.Direction" />
+        <item itemvalue="Application.PacmanBoard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Trrrr\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Trrrr\Desktop\semester2\CSSE7023\assignment2" />
+          <option name="myCopyRoot" value="C:\Users\Trrrr\Desktop\semester2\CSSE7023\assignment2" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Trrrr\Desktop\semester2\CSSE7023\assignment2" />
+          <option name="myCopyRoot" value="C:\Users\Trrrr\Desktop\semester2\CSSE7023\assignment2" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="285a8dc9-9bac-49f0-8be1-596f24d42e49" name="Default Changelist" comment="" />
+      <created>1568609981818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568609981818</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1568707905058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568707905058</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1568964002214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568964002215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
