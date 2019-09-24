@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="285a8dc9-9bac-49f0-8be1-596f24d42e49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pacman/util/UnpackableException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/board/PacmanBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/board/PacmanBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/game/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pacman/game/GameReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/GameReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/game/GameWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/GameWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/game/Moveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/Moveable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pacman/game/PacmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/PacmanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Blinky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Blinky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Clyde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Clyde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Ghost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Inky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Inky.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Pinky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Pinky.java" afterDir="false" />
@@ -55,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameWriter">
+  <component name="RunManager" selected="Application.Ghost">
     <configuration name="Direction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pacman.util.Direction" />
       <module name="assignment2" />
@@ -82,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ghost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.ghost.Ghost" />
+      <module name="assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pacman.ghost.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PacmanBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pacman.board.PacmanBoard" />
       <module name="assignment2" />
@@ -95,8 +115,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PacmanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.game.PacmanGame" />
+      <module name="assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pacman.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ghost" />
+        <item itemvalue="Application.PacmanGame" />
         <item itemvalue="Application.GameWriter" />
         <item itemvalue="Application.Direction" />
         <item itemvalue="Application.PacmanBoard" />
