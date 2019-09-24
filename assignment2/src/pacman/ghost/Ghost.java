@@ -211,8 +211,7 @@ public abstract class Ghost extends Entity {
             if (item.getPathable()) {
                 var nextPosition = getPosition().add(dir.offset());
                 //distance calculation.
-                distances.put(dir,Math.sqrt(Math.pow(nextPosition.getX() - chaseTarget(game).getX(),2) +
-                                Math.pow(nextPosition.getY() - chaseTarget(game).getY(),2)));
+                distances.put(dir,nextPosition.distance(chaseTarget(game)));
             }
         }
         //sort pairs by values in descending order.
