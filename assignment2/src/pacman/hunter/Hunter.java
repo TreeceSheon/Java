@@ -191,7 +191,7 @@ public abstract class Hunter extends Entity {
         BoardItem item = game.getBoard().getEntry(positionAhead);
         this.setPosition((item.getPathable() ? positionAhead : getPosition()));
         game.getBoard().eatDot(getPosition());
-        duration = Math.min(0,duration--);
+        duration = Math.max(0,duration--);
     }
 
     /**
