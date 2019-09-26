@@ -225,7 +225,7 @@ public abstract class Ghost extends Entity {
         // set alternative order for values that might be same.
         Direction[] Order = { Direction.UP, Direction.LEFT, Direction.DOWN, Direction.RIGHT };
         var minDistance = items.get(0).getValue();
-        //do iteration to find the prior order.
+        //do ordered traversal to find the prior direction.
         for(Direction d : Order) {
             if (distances.get(d).equals(minDistance)) {
                 //break when find it.
