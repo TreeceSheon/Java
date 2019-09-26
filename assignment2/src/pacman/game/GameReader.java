@@ -10,10 +10,14 @@ import java.io.*;
 import java.util.*;
 
 public class GameReader {
-
+    //store entries at each position of the board,size in PacmanBoard.height;
     private static List<String> boardEntries = new ArrayList<>();
+    //store board dimentions, size for 1.
     private static ArrayList<String> boardDimensions = new ArrayList<>();
+    //store all the information for [Game] block, trivial attributes, hunter and ghosts respectively.
+    //size for 11 in total(including blank line in the end), trivialAttributes size in 5, hunter in 1, and ghosts in 4.
     private static ArrayList<String> gameInformation = new ArrayList<>();
+    //store scores information for other users.
     private static ArrayList<String> scoresInformation = new ArrayList<>();
 
     /**
@@ -44,7 +48,7 @@ public class GameReader {
         var temp = gameInformation.get(5).split("=")[1];
         var hunterInformation = temp.split(",");
         Hunter hunter = setHunter(hunterInformation);
-        //set game
+        //setup game
         String title = trivialInformation[0];
         String author = trivialInformation[1];
         PacmanGame game = new PacmanGame(title, author, hunter, board);
