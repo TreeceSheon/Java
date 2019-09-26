@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="285a8dc9-9bac-49f0-8be1-596f24d42e49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pacman/util/UnpackableException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/board/PacmanBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/board/PacmanBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/game/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/game/GameReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/GameReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/game/GameWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/GameWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/game/Moveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/Moveable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/game/PacmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/game/PacmanGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Blinky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Blinky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Clyde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Clyde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Ghost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Inky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Inky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/ghost/Pinky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/ghost/Pinky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Phasey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Phasey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Phil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Phil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/hunter/Speedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/hunter/Speedy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/score/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/score/ScoreBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pacman/util/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/util/Position.java" afterDir="false" />
-    </list>
+    <list default="true" id="285a8dc9-9bac-49f0-8be1-596f24d42e49" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +28,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RunDashboard">
@@ -62,13 +43,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ghost">
-    <configuration name="Direction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pacman.util.Direction" />
+  <component name="RunManager" selected="Application.GameReader">
+    <configuration name="GameReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.game.GameReader" />
       <module name="assignment2" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pacman.util.*" />
+          <option name="PATTERN" value="pacman.game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PacmanBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pacman.board.PacmanBoard" />
-      <module name="assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pacman.board.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PacmanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pacman.game.PacmanGame" />
       <module name="assignment2" />
@@ -128,13 +97,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Phasey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacman.hunter.Phasey" />
+      <module name="assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pacman.hunter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GameReader" />
+      <item itemvalue="Application.GameWriter" />
+      <item itemvalue="Application.Ghost" />
+      <item itemvalue="Application.PacmanGame" />
+      <item itemvalue="Application.Phasey" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameReader" />
+        <item itemvalue="Application.Phasey" />
+        <item itemvalue="Application.GameWriter" />
         <item itemvalue="Application.Ghost" />
         <item itemvalue="Application.PacmanGame" />
-        <item itemvalue="Application.GameWriter" />
-        <item itemvalue="Application.Direction" />
-        <item itemvalue="Application.PacmanBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -182,10 +171,45 @@
       <option name="project" value="LOCAL" />
       <updated>1568964002215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003">
+      <created>1569320893534</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569320893535</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1569502798964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569502798964</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pacman/board/PacmanBoard.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pacman/game/GameReader.java</url>
+          <line>377</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pacman/game/GameReader.java</url>
+          <line>317</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

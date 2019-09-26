@@ -398,12 +398,5 @@ public class GameReader {
             }
         }
     }
-    public static void main (String[]args) throws IOException, UnpackableException {
-        File file = new File("some address for input file");
-        FileReader fr = new FileReader(file);
-        BufferedReader reader = new BufferedReader(fr);
-        PacmanGame game = read(reader);
-
-    }
 
 }
