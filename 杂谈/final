@@ -1,0 +1,9 @@
+String a = "123";
+String e = a +2;
+final String b = "123";
+String c = b+2;
+String f = "1232";
+System.out.println(f == e); //false
+System.out.println(f == c); //true
+
+原因：在生成non-primitive类型对象的时候，使用final关键字修饰的变量会在编译过程中被认定为常量。
