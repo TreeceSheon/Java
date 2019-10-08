@@ -1,0 +1,59 @@
+1.COMPARABLE
+
+  comparable是使得实现该接口的类具有比较性质，里面只有一个方法接口：
+  
+  public interface Comparable<T> {
+  
+  public int compareTo(T o);
+  
+  }
+  从设计原理上讲，属于使能性质，赋予该类某种能力。
+  
+  实现了Comparable接口的类可以直接作为参数用Collections.sort()方法排序。
+  
+2.Comparator
+
+  comparator则是一个外部的比较器接口，可以作为接口被类实现，但它的存在更多的是体现了一种策略模式，比如当需要被排序的类没有实现comparable，
+  或者实现的comparable方法本身不满足我们的定制化要求，可以为该类的对象量身定制一个外部比较方式，这就是Comparator.
+  
+  举例1： 未实现Comparable的封装类
+    /**
+    这是一个封装类，不能被修改为实现Comparable的类
+    */
+    public class Person{
+
+      int age;
+
+      public person(int age){
+        this.age = age;
+      }
+      
+      public int getAge(){
+      return this.age;
+    }
+  ___________________________________________________________________________________________
+  
+  现在需要对Person类按照年龄排序，则我们可以定义一个Person比较类：
+  
+  public class ComPerson implement Comparator<T>{
+  
+    public int compare(T o1, T o2){
+    
+      person1 = (Person)o1;
+      person2 = (Person)o2;
+      return person1.age - person2.age;
+    }
+    
+  }
+  
+  这里或许会有疑惑，为什么要实现Comparator类，而不实现Comparable类呢，难道不都是实现比较功能吗？
+  
+  有这个疑问的主要原因还是自己没有深入思考，我也是想通了以后才准备把它写进博客里加强记忆的。
+  
+  1.首先还是从设计原理出发，Comparable本身是赋能功能，我们定义的类是ComPerson类，如果将其赋予比较的功能，并不能使得Person类也具有比较功能。
+  
+  2.其次，该类实现Comparable后的实例是不能作为比较器参数传入Collections.sort()方法内做排序，本身也不能单独做为一个参数传入Collection.sort()排序。
+  
+  3.我们可以看到，CompareTo()方法只有一个参数，说明它最初的设计理念就是为内部比较而生，而compare()则有两个参数，是为外部比较量身定做。
+      
+  
